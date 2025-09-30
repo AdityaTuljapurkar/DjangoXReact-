@@ -1,0 +1,23 @@
+# This is a requirements file listing the Python libraries required for the backend of a React-Django application.
+# Below is the purpose of each library:
+
+# asgiref: Provides ASGI (Asynchronous Server Gateway Interface) support for Django, enabling asynchronous capabilities.
+# Django: A high-level Python web framework that simplifies the development of robust and scalable web applications.
+# django-cors-headers: Middleware for handling Cross-Origin Resource Sharing (CORS) in Django, allowing frontend-backend communication.
+# djangorestframework: A powerful and flexible toolkit for building Web APIs in Django.
+# djangorestframework-simplejwt: A JSON Web Token (JWT) authentication library for Django REST Framework, providing secure token-based authentication.
+# PyJWT: A Python library for encoding and decoding JSON Web Tokens (JWT).
+# pytz: A library for working with time zones, used by Django for timezone-aware datetime handling.
+# sqlparse: A non-validating SQL parser for formatting and analyzing SQL queries.
+# psycopg2-binary: A PostgreSQL database adapter for Python, used for connecting Django to a PostgreSQL database.
+# python-dotenv: A library for reading environment variables from a `.env` file, useful for managing configuration settings.
+asgiref
+Django
+django-cors-headers
+djangorestframework
+djangorestframework-simplejwt
+PyJWT
+pytz
+sqlparse
+psycopg2-binary
+python-dotenv 
